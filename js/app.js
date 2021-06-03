@@ -1,4 +1,4 @@
-`use strict`
+`use strict`;
 let myForm = document.getElementById('myForm');
 let orders = document.getElementById('orders');
 let drinks =[];
@@ -30,7 +30,7 @@ function render(){
     for(i=0; i<drinks.length; i++ ){
         let liEl= document.createElement('li');
         orders.appendChild(liEl);
-        liEl.textContent=`${drinks[i].userName} ordered ${drinks[i].quantity} cups`
+        liEl.textContent=`${drinks[i].userName} ordered ${drinks[i].quantity} cups`;
     }
 
 }
